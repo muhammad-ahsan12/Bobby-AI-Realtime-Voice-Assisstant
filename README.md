@@ -5,6 +5,8 @@ web app joins a LiveKit room; the Python agent handles voice and routes requests
 keyboard, Windows, filesystem, and optional desktop, Gmail, and GitHub MCP tools. A FastAPI
 backend issues short-lived LiveKit room tokens and streams tool activity to the UI.
 
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/7d21531d-2c50-4006-b6f5-d6c34b372d8b" />
+
 ## Features
 
 - Live voice conversations with Gemini Realtime.
