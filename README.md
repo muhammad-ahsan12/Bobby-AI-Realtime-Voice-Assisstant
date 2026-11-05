@@ -24,6 +24,10 @@ backend issues short-lived LiveKit room tokens and streams tool activity to the 
 - Live activity feed in the web interface; transcript events are sent live and are not retained
   in backend activity history.
 
+## Dashboard
+
+![Bobby AI dashboard](docs/images/bobby-ai-dashboard.png)
+
 ## Architecture
 
 The browser UI requests a room token from FastAPI, then connects to LiveKit. LiveKit dispatches
