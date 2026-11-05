@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+dist/
+*.token
+.env
+.env.*
+!.env.example
+client_secret*.json
+gcp-oauth.keys.json
+credentials.json
+.gmail-mcp/

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bobby Chrome access</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Bobby tab access</h1>
+      <p id="connection">Checking local Bobby connection...</p>
+      <button id="grant">Grant all-sites access</button>
+      <button id="revoke-access">Revoke all-sites access</button>
+      <button id="grant-chrome">Allow Bobby all Chrome tabs</button>
+      <button id="revoke-chrome">Revoke all Chrome tab access</button>
+      <p class="hint">Whole-Chrome access includes current and newly opened tabs.</p>
+      <h2 id="tabs-heading">Chrome tabs Bobby can access</h2>
+      <ul id="tabs"></ul>
+      <p id="message" role="status"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

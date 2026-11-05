@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Bobby Authorized Chrome",
+  "version": "1.0.0",
+  "description": "Lets Bobby control Chrome tabs you authorize through the extension popup.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAobhghvbnhPDp6G0nsbY+QL5RXWr+voEXggBvF9wzMsVRf0ALCJsCT5DJxNntOYGKoKTJZCuN24Ld4kx1QeaeZpcTWrRIftrLBdaubBjODDcOeXyEvt6HtrARZF34B+LUBkxh5dA0V4PZJSkZ0nfmO/jluvI0i+Rf3gZf0/QlI7AQrtOVhD8z+uy7r/D78CdwwVQHuxApwpDA7Xu/2M980ZLkXb/CfjvqdpjL3+FdEY4rsAhd9eQPFg2v9J4StkSw0oHWB+KGjb2U+I4U6OLX72DRwp7bZIl5mciXtaR2wDJYpM/KrY3PCf3Gdoe5LCYRDc2Z8/5LspA06KzNXoxyIwIDAQAB",
+  "permissions": ["scripting", "storage", "tabs"],
+  "optional_host_permissions": ["<all_urls>"],
+  "host_permissions": ["http://127.0.0.1:8765/*"],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Bobby tab access"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' ws://127.0.0.1:8765"
+  }
+}

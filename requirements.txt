@@ -1,0 +1,11 @@
+livekit-agents[mcp]==1.8.10
+livekit-plugins-google==1.8.10
+livekit-api
+fastapi
+uvicorn[standard]
+python-dotenv
+aiohttp
+ddgs
+pymongo
+send2trash
+pytest

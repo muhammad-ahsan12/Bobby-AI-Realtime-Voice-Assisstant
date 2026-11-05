@@ -1,0 +1,6 @@
+{
+  "name": "Bobby - Voice Assistant",
+  "description": "A dark, premium, futuristic voice assistant UI with an interactive 3D audio-reactive orb, LiveKit audio integration, and real-time activity feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
